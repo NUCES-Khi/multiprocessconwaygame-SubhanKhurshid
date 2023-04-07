@@ -15,7 +15,7 @@ void InitializingMatrix(int matrix[rows][columns]) {
     }
 }
 
-void print_matrix(int matrix[rows][columns]) {
+void PrinitngTheMatrix(int matrix[rows][columns]) {
     printf("\033[2J"); 
     printf("\033[%d;%dH", 0, 0); 
     for(int i=0; i<rows; i++) {
@@ -30,7 +30,7 @@ void print_matrix(int matrix[rows][columns]) {
     }
 }
 
-int count_neighbors(int matrix[rows][columns], int row, int col) {
+int CountingNeighbours(int matrix[rows][columns], int row, int col) {
     int count = 0;
     for(int i=row-1; i<=row+1; i++) {
         for(int j=col-1; j<=col+1; j++) {
@@ -49,7 +49,7 @@ int count_neighbors(int matrix[rows][columns], int row, int col) {
 void UpdatingTheMatrix(int matrix[rows][columns], int new_matrix[rows][columns]) {
     for(int i=0; i<rows; i++) {
         for(int j=0; j<columns; j++) {
-            int neighbors = count_neighbors(matrix, i, j);
+            int neighbors = CountingNeighbours(matrix, i, j);
             if(matrix[i][j] == 1 && (neighbors < 2 || neighbors > 3)) {
                 new_matrix[i][j] = 0;
             } else if(matrix[i][j] == 0 && neighbors == 3) {
@@ -71,7 +71,7 @@ int main() {
 
     while(1) {
         UpdatingTheMatrix(matrix, new_matrix);
-        print_matrix(new_matrix);
+        PrinitngTheMatrix(new_matrix);
         int pid = fork();
         if(pid == 0){
             for(int i=0; i<rows; i++) {
