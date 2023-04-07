@@ -1,22 +1,14 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10782336&assignment_repo_type=AssignmentRepo)
-# Assign 02 - Multiprocess Conway Game
-|Name|Id|
-|-|-|
-|Add your name here|kYY-xxxx|
+## Assignment # 02
+### Name : Muhammad Subhan Khurshid 
+### RollNo : 21k-3096
 
 
-## Intro
-A Template for ConwayGame Multiprocess. This report is part of the assignment you are to complete this report. The headings must remain the same. Remove any other text and add your own. 
+### Introduction:
+I have implemented Conway Game Of Life in this assignment. I have initialized a 2d matrix and have used various functions like update matrix, print matrix, count neighbours and various other functions to implement the scenario that i was given with.
 
-## Approach
-Breifly explain how did you planned to approach the problem
+### Help From Google/ChatGpt:
+There were multiple times when i got stuck while implementing this game and that's where i took help from google and chatgpt in terms of Google I have used stackoverflow to find errors of my problems and I have used ChatGpt to understand some of the logic of the question.
 
-## Problems Faced
-+ use this list to mention the major problems that you faced in completing this assignment.
-+ Please use correct English
+### Screenshot:
+<img width="434" alt="assign2" src="https://user-images.githubusercontent.com/105592966/230520158-0ea76c50-88bb-402e-88e1-dc39b01935fe.PNG">
 
-## Online / Chat GPT Help
-Mention where you got help for your assignment and if you used chat gpt (not encouraged) mention the questions you gave and the reply you got that you are using in the assignment.
-
-## Screenshots
-![Add screenshots here.]() 
